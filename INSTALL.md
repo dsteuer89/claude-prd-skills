@@ -7,7 +7,7 @@ From your project directory, run:
 ```bash
 mkdir -p .claude
 cd .claude
-git clone https://github.com/yourusername/claude-prd-skills.git skills
+git clone https://github.com/dsteuer89/claude-prd-skills.git skills
 ```
 
 That's it! Now you can use `/prd-to-jira` from that project.
@@ -28,7 +28,7 @@ Set up once:
 
 ```bash
 # Clone to a permanent location
-git clone https://github.com/yourusername/claude-prd-skills.git ~/claude-skills
+git clone https://github.com/dsteuer89/claude-prd-skills.git ~/claude-skills
 ```
 
 Then in each project:
@@ -52,7 +52,7 @@ If you want project-specific customizations:
 # In each project
 mkdir -p .claude
 cd .claude
-git clone https://github.com/yourusername/claude-prd-skills.git skills
+git clone https://github.com/dsteuer89/claude-prd-skills.git skills
 
 # Customize for this project
 cd skills

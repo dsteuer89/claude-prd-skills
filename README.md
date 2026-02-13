@@ -34,14 +34,14 @@ coach behavior and drive adoption.
 # From your project directory
 mkdir -p .claude
 cd .claude
-git clone https://github.com/yourusername/claude-prd-skills.git skills
+git clone https://github.com/dsteuer89/claude-prd-skills.git skills
 ```
 
 Or copy just the skills you need:
 
 ```bash
 # Clone to a temp location
-git clone https://github.com/yourusername/claude-prd-skills.git temp
+git clone https://github.com/dsteuer89/claude-prd-skills.git temp
 
 # Copy specific skills
 mkdir -p .claude/skills
@@ -57,7 +57,7 @@ For power users who want these skills available everywhere:
 
 ```bash
 # Clone once to a global location
-git clone https://github.com/yourusername/claude-prd-skills.git ~/claude-skills
+git clone https://github.com/dsteuer89/claude-prd-skills.git ~/claude-skills
 
 # Then in each project, symlink
 mkdir -p .claude
